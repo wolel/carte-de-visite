@@ -1,0 +1,62 @@
+#cercle-photo{
+    background-image: url("doodle.png");
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid dodgerblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+#cadre{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    border: 3px solid dodgerblue;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 1em;
+    width: 900px;
+    height: 535px;
+    background-image: url("background-image.jpg");
+}
+
+
+#nom{
+    margin-left: 250px;
+    text-align: 200px;
+    font-family: Impact;
+    font-size: 80px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+#fonction{
+    font-family: "Arial Black";
+    font-size: 26px;
+    margin-left: 230px;
+
+}
+.presentation{
+    alignment: center;
+}
+#picto-linkedin{
+    float: right;
+   margin-right: 9px;
+}
+#icone-mail{
+    float: right;
+    margin-right: 10px;
+}
+#work{
+    float: right;
+    margin-right: 10px;
+}
+
+ul{list-style: none}
+li::before{content: "\25AA";color:white;display:
+        inline-block;width: 1em;margin-left: -1em}
+}
