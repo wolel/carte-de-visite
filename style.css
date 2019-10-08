@@ -12,8 +12,6 @@
 
 }
 #cadre{
-    position: relative;
-    width: 80%;
     margin: auto;
     border: 3px solid dodgerblue;
     overflow: hidden;
@@ -27,21 +25,21 @@
 
 #nom{
     margin-left: 250px;
-    text-align: 200px;
-    font-family: Impact;
+    font-family: Impact, serif;
     font-size: 80px;
     margin-top: 8px;
     margin-bottom: 8px;
 
 }
 #fonction{
-    font-family: "Arial Black";
+    font-family: 'Mansalva', cursive;
     font-size: 26px;
-    margin-left: 230px;
+    margin-left: 260px;
 
 }
 .presentation{
     alignment: center;
+
 }
 #picto-linkedin{
     float: right;
@@ -58,5 +56,5 @@
 
 ul{list-style: none}
 li::before{content: "\25AA";color:white;display:
-        inline-block;width: 1em;margin-left: -1em}
+        inline-block;width: 1em;margin-left: -1em
 }
